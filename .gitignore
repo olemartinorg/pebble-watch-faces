@@ -1,0 +1,18 @@
+arm-cs-tools/
+fonts
+
+# Didn't see the needs for these in git
+fuzzynorsk.xcf
+fuzzynorsk2.xcf
+fuzzynorsk3.xcf
+
+# Source code from hudsons pebble repo - for inspiration
+hudson
+
+# Just a tiny tool i use
+init-envionment.sh
+
+pebble-sdk-release-001
+pebble.sublime-project
+pebble.sublime-workspace
+
