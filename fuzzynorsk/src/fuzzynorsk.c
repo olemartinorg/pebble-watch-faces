@@ -38,12 +38,12 @@ static const char * hours[] = {
     "",
     "ett",
     "to",
-    "tri",
-    "fira",
+    "tre",
+    "fire",
     "fem",
     "seks",
-    "sju",
-    "åtta",
+    "syv",
+    "åtte",
     "ni",
     "ti",
     "elleve",
@@ -96,14 +96,14 @@ static void norsk_fuzzy(int h, int m, int s){
     else if ((m == 52 && s >= 30) || m > 52) { strcat(fuzzy_str_buf, "fem på");        h++; }
     else if ((m == 47 && s >= 30) || m > 47) { strcat(fuzzy_str_buf, "ti på");         h++; }
     else if ((m == 42 && s >= 30) || m > 42) { strcat(fuzzy_str_buf, "kvart på");      h++; }
-    else if ((m == 37 && s >= 30) || m > 37) { strcat(fuzzy_str_buf, "ti øve halv");   h++; }
-    else if ((m == 32 && s >= 30) || m > 32) { strcat(fuzzy_str_buf, "fem øve halv");  h++; }
+    else if ((m == 37 && s >= 30) || m > 37) { strcat(fuzzy_str_buf, "ti over halv");  h++; }
+    else if ((m == 32 && s >= 30) || m > 32) { strcat(fuzzy_str_buf, "fem over halv"); h++; }
     else if ((m == 27 && s >= 30) || m > 27) { strcat(fuzzy_str_buf, "halv");          h++; }
     else if ((m == 22 && s >= 30) || m > 22) { strcat(fuzzy_str_buf, "fem på halv");   h++; }
     else if ((m == 17 && s >= 30) || m > 17) { strcat(fuzzy_str_buf, "ti på halv");    h++; }
-    else if ((m == 12 && s >= 30) || m > 12) { strcat(fuzzy_str_buf, "kvart øve");          }
-    else if ((m ==  7 && s >= 30) || m >  7) { strcat(fuzzy_str_buf, "ti øve");             }
-    else if ((m ==  2 && s >= 30) || m >  2) { strcat(fuzzy_str_buf, "fem øve");            }
+    else if ((m == 12 && s >= 30) || m > 12) { strcat(fuzzy_str_buf, "kvart over");         }
+    else if ((m ==  7 && s >= 30) || m >  7) { strcat(fuzzy_str_buf, "ti over");            }
+    else if ((m ==  2 && s >= 30) || m >  2) { strcat(fuzzy_str_buf, "fem over");           }
     else {                                     space = false;                               }
 
     if (space)

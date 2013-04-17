@@ -39,7 +39,7 @@ static const char * hours[] = {
     "fire",
     "fem",
     "seks",
-    "sju",
+    "syv",
     "åtte",
     "ni",
     "ti",
