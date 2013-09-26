@@ -94,9 +94,9 @@ static void norsk_fuzzy(int h, int m, int s){
     else if ((m == 42 && s >= 30) || m > 42) { strcat(fuzzy_str_buf, "quarter till");  h++; }
     else if ((m == 37 && s >= 30) || m > 37) { strcat(fuzzy_str_buf, "twenty till");   h++; }
 //    else if ((m == 32 && s >= 30) || m > 32) { strcat(fuzzy_str_buf, "fem over halv"); h++; }
-    else if ((m == 27 && s >= 30) || m > 27) { strcat(fuzzy_str_buf, "half past");     h; }
+    else if ((m == 27 && s >= 30) || m > 27) { strcat(fuzzy_str_buf, "half past");          }
 //    else if ((m == 22 && s >= 30) || m > 22) { strcat(fuzzy_str_buf, "fem på halv");   h++; }
-    else if ((m == 17 && s >= 30) || m > 17) { strcat(fuzzy_str_buf, "twenty past");   h; }
+    else if ((m == 17 && s >= 30) || m > 17) { strcat(fuzzy_str_buf, "twenty past");        }
     else if ((m == 12 && s >= 30) || m > 12) { strcat(fuzzy_str_buf, "quarter past");       }
     else if ((m ==  7 && s >= 30) || m >  7) { strcat(fuzzy_str_buf, "ten past");           }
     else if ((m ==  2 && s >= 30) || m >  2) { strcat(fuzzy_str_buf, "five past");          }
