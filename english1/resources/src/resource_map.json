@@ -1,0 +1,21 @@
+{
+    "friendlyVersion": "1.0",
+    "versionDefName": "APP_RESOURCES",
+    "media": [
+        {
+           "type":"png",
+           "defName":"IMAGE_MENU_ICON",
+           "file":"images/menu_icon.png"
+        },
+        {
+           "type":"font",
+           "defName":"FONT_23",
+           "file":"fonts/Raleway-Light.ttf"
+        },
+        {
+           "type":"font",
+           "defName":"FONT_BIG_44",
+           "file":"fonts/Raleway-Bold.ttf"
+        }
+    ]
+}
