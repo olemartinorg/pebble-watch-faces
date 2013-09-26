@@ -12,7 +12,7 @@ hudson
 # Just a tiny tool i use
 init-envionment.sh
 
-pebble-sdk-release-001
+PebbleSDK-1.12
 pebble.sublime-project
 pebble.sublime-workspace
 
